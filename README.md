@@ -2,12 +2,11 @@
 
 Hello (Real) World with ROS - Operating System
 
-This is for the edX course: Hello (Real) World with ROS - Robot Operating System offered by TUDelft. h
-ttps://www.edx.org/course/hello-real-world-with-ros-robot-operating-system
+This is for the edX course: Hello (Real) World with ROS - Robot Operating System offered by TUDelft. [Course website](https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system)
 
-Course Outline: 
+## Course Outline: 
 
-Week 0: Course setup
+- Week 0: Course setup
 Installation of Ubuntu-Linux, course simulation setup and supporting software.
 
 Week 1: ROS Essentials
@@ -22,8 +21,8 @@ Map creation with GMapping package, autonomously navigate a known map with ROS n
 Week 4: Manipulation
 Motion planning, pick and place behaviors using industrial robots with ROS MoveIt!
 
-Week 5: Robot Vision
+- Week 5: Robot Vision
 Object detection, pose estimation.
 
-Week 6: Final Project
+- Week 6: Final Project
 ROS file system, basic concepts of behavior design with state machines, build a production line application with two industrial robot arms and a mobile robot.

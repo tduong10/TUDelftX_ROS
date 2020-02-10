@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/lib/python2.7/dist-packages/hrwros_msgs/msg/_CounterWithDelayActionFeedback.py"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/lib/python2.7/dist-packages/hrwros_msgs/msg/_CounterWithDelayActionGoal.py"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/lib/python2.7/dist-packages/hrwros_msgs/msg/_CounterWithDelayFeedback.py"
+  "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/lib/python2.7/dist-packages/hrwros_msgs/msg/_BoxHeightInformation.py"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/lib/python2.7/dist-packages/hrwros_msgs/msg/_TargetToolPoses.py"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/lib/python2.7/dist-packages/hrwros_msgs/msg/_ObjectDetection.py"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/lib/python2.7/dist-packages/hrwros_msgs/msg/_SensorInformation.py"

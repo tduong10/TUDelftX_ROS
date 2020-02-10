@@ -24,7 +24,7 @@ def sensor_info_callback(data, bhi_pub):
         # Declare a message object for publishing the box height information.
         box_height_info = BoxHeightInformation()
         # Update height of box.
-        box_height_info.box_height_info = height_box
+        box_height_info.box_height = height_box
         # Publish box height using the publisher argument passed to the callback function.
         bhi_pub.publish(box_height_info)
 

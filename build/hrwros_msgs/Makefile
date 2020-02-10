@@ -480,6 +480,19 @@ _hrwros_msgs_generate_messages_check_deps_CounterWithDelayAction/fast:
 .PHONY : _hrwros_msgs_generate_messages_check_deps_CounterWithDelayAction/fast
 
 #=============================================================================
+# Target rules for targets named _hrwros_msgs_generate_messages_check_deps_BoxHeightInformation
+
+# Build rule for target.
+_hrwros_msgs_generate_messages_check_deps_BoxHeightInformation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _hrwros_msgs_generate_messages_check_deps_BoxHeightInformation
+.PHONY : _hrwros_msgs_generate_messages_check_deps_BoxHeightInformation
+
+# fast build rule for target.
+_hrwros_msgs_generate_messages_check_deps_BoxHeightInformation/fast:
+	$(MAKE) -f CMakeFiles/_hrwros_msgs_generate_messages_check_deps_BoxHeightInformation.dir/build.make CMakeFiles/_hrwros_msgs_generate_messages_check_deps_BoxHeightInformation.dir/build
+.PHONY : _hrwros_msgs_generate_messages_check_deps_BoxHeightInformation/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
 
 # Build rule for target.
@@ -1398,6 +1411,7 @@ help:
 	@echo "... run_tests"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... _hrwros_msgs_generate_messages_check_deps_CounterWithDelayAction"
+	@echo "... _hrwros_msgs_generate_messages_check_deps_BoxHeightInformation"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... moveit_msgs_generate_messages_nodejs"
 	@echo "... sensor_msgs_generate_messages_nodejs"

@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/common-lisp/ros/hrwros_msgs/msg/CounterWithDelayActionFeedback.lisp"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/common-lisp/ros/hrwros_msgs/msg/CounterWithDelayActionGoal.lisp"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/common-lisp/ros/hrwros_msgs/msg/CounterWithDelayFeedback.lisp"
+  "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/common-lisp/ros/hrwros_msgs/msg/BoxHeightInformation.lisp"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/common-lisp/ros/hrwros_msgs/msg/TargetToolPoses.lisp"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/common-lisp/ros/hrwros_msgs/msg/ObjectDetection.lisp"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/common-lisp/ros/hrwros_msgs/msg/SensorInformation.lisp"

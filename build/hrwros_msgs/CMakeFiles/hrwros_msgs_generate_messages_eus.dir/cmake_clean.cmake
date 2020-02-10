@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/roseus/ros/hrwros_msgs/msg/CounterWithDelayActionFeedback.l"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/roseus/ros/hrwros_msgs/msg/CounterWithDelayActionGoal.l"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/roseus/ros/hrwros_msgs/msg/CounterWithDelayFeedback.l"
+  "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/roseus/ros/hrwros_msgs/msg/BoxHeightInformation.l"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/roseus/ros/hrwros_msgs/msg/TargetToolPoses.l"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/roseus/ros/hrwros_msgs/msg/ObjectDetection.l"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/roseus/ros/hrwros_msgs/msg/SensorInformation.l"

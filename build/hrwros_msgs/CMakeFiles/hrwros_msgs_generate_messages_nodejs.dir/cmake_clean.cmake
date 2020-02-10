@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/gennodejs/ros/hrwros_msgs/msg/CounterWithDelayActionFeedback.js"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/gennodejs/ros/hrwros_msgs/msg/CounterWithDelayActionGoal.js"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/gennodejs/ros/hrwros_msgs/msg/CounterWithDelayFeedback.js"
+  "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/gennodejs/ros/hrwros_msgs/msg/BoxHeightInformation.js"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/gennodejs/ros/hrwros_msgs/msg/TargetToolPoses.js"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/gennodejs/ros/hrwros_msgs/msg/ObjectDetection.js"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/gennodejs/ros/hrwros_msgs/msg/SensorInformation.js"

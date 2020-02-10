@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "hrwros_msgs: 11 messages, 1 services")
+message(STATUS "hrwros_msgs: 12 messages, 1 services")
 
 set(MSG_I_FLAGS "-Ihrwros_msgs:/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg;-Ihrwros_msgs:/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg;-Itrajectory_msgs:/opt/ros/melodic/share/trajectory_msgs/cmake/../msg;-Imoveit_msgs:/opt/ros/melodic/share/moveit_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg;-Ishape_msgs:/opt/ros/melodic/share/shape_msgs/cmake/../msg;-Iobject_recognition_msgs:/opt/ros/melodic/share/object_recognition_msgs/cmake/../msg;-Ioctomap_msgs:/opt/ros/melodic/share/octomap_msgs/cmake/../msg")
 
@@ -45,6 +45,11 @@ add_custom_target(_hrwros_msgs_generate_messages_check_deps_${_filename}
 get_filename_component(_filename "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg/CounterWithDelayFeedback.msg" NAME_WE)
 add_custom_target(_hrwros_msgs_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hrwros_msgs" "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg/CounterWithDelayFeedback.msg" ""
+)
+
+get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg" NAME_WE)
+add_custom_target(_hrwros_msgs_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hrwros_msgs" "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg" ""
 )
 
 get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/TargetToolPoses.msg" NAME_WE)
@@ -120,6 +125,12 @@ _generate_msg_cpp(hrwros_msgs
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hrwros_msgs
 )
 _generate_msg_cpp(hrwros_msgs
+  "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hrwros_msgs
+)
+_generate_msg_cpp(hrwros_msgs
   "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/TargetToolPoses.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
@@ -182,6 +193,8 @@ get_filename_component(_filename "/home/timmy/hrwros_ws/devel/.private/hrwros_ms
 add_dependencies(hrwros_msgs_generate_messages_cpp _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg/CounterWithDelayFeedback.msg" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_cpp _hrwros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg" NAME_WE)
+add_dependencies(hrwros_msgs_generate_messages_cpp _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/TargetToolPoses.msg" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_cpp _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/ObjectDetection.msg" NAME_WE)
@@ -236,6 +249,12 @@ _generate_msg_eus(hrwros_msgs
 )
 _generate_msg_eus(hrwros_msgs
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg/CounterWithDelayFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hrwros_msgs
+)
+_generate_msg_eus(hrwros_msgs
+  "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hrwros_msgs
@@ -303,6 +322,8 @@ get_filename_component(_filename "/home/timmy/hrwros_ws/devel/.private/hrwros_ms
 add_dependencies(hrwros_msgs_generate_messages_eus _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg/CounterWithDelayFeedback.msg" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_eus _hrwros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg" NAME_WE)
+add_dependencies(hrwros_msgs_generate_messages_eus _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/TargetToolPoses.msg" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_eus _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/ObjectDetection.msg" NAME_WE)
@@ -357,6 +378,12 @@ _generate_msg_lisp(hrwros_msgs
 )
 _generate_msg_lisp(hrwros_msgs
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg/CounterWithDelayFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hrwros_msgs
+)
+_generate_msg_lisp(hrwros_msgs
+  "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hrwros_msgs
@@ -424,6 +451,8 @@ get_filename_component(_filename "/home/timmy/hrwros_ws/devel/.private/hrwros_ms
 add_dependencies(hrwros_msgs_generate_messages_lisp _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg/CounterWithDelayFeedback.msg" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_lisp _hrwros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg" NAME_WE)
+add_dependencies(hrwros_msgs_generate_messages_lisp _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/TargetToolPoses.msg" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_lisp _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/ObjectDetection.msg" NAME_WE)
@@ -478,6 +507,12 @@ _generate_msg_nodejs(hrwros_msgs
 )
 _generate_msg_nodejs(hrwros_msgs
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg/CounterWithDelayFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hrwros_msgs
+)
+_generate_msg_nodejs(hrwros_msgs
+  "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hrwros_msgs
@@ -545,6 +580,8 @@ get_filename_component(_filename "/home/timmy/hrwros_ws/devel/.private/hrwros_ms
 add_dependencies(hrwros_msgs_generate_messages_nodejs _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg/CounterWithDelayFeedback.msg" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_nodejs _hrwros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg" NAME_WE)
+add_dependencies(hrwros_msgs_generate_messages_nodejs _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/TargetToolPoses.msg" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_nodejs _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/ObjectDetection.msg" NAME_WE)
@@ -599,6 +636,12 @@ _generate_msg_py(hrwros_msgs
 )
 _generate_msg_py(hrwros_msgs
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg/CounterWithDelayFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hrwros_msgs
+)
+_generate_msg_py(hrwros_msgs
+  "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hrwros_msgs
@@ -665,6 +708,8 @@ add_dependencies(hrwros_msgs_generate_messages_py _hrwros_msgs_generate_messages
 get_filename_component(_filename "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg/CounterWithDelayActionGoal.msg" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_py _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/msg/CounterWithDelayFeedback.msg" NAME_WE)
+add_dependencies(hrwros_msgs_generate_messages_py _hrwros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/BoxHeightInformation.msg" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_py _hrwros_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/timmy/hrwros_ws/src/hrwros/hrwros_msgs/msg/TargetToolPoses.msg" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_py _hrwros_msgs_generate_messages_check_deps_${_filename})

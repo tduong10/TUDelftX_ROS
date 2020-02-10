@@ -6,6 +6,7 @@ let TargetToolPoses = require('./TargetToolPoses.js');
 let CounterWithDelayActionResult = require('./CounterWithDelayActionResult.js');
 let ObjectDetection = require('./ObjectDetection.js');
 let CounterWithDelayAction = require('./CounterWithDelayAction.js');
+let BoxHeightInformation = require('./BoxHeightInformation.js');
 let SensorInformation = require('./SensorInformation.js');
 let CounterWithDelayFeedback = require('./CounterWithDelayFeedback.js');
 let CounterWithDelayGoal = require('./CounterWithDelayGoal.js');
@@ -26,6 +27,7 @@ module.exports = {
   CounterWithDelayActionResult: CounterWithDelayActionResult,
   ObjectDetection: ObjectDetection,
   CounterWithDelayAction: CounterWithDelayAction,
+  BoxHeightInformation: BoxHeightInformation,
   SensorInformation: SensorInformation,
   CounterWithDelayFeedback: CounterWithDelayFeedback,
   CounterWithDelayGoal: CounterWithDelayGoal,

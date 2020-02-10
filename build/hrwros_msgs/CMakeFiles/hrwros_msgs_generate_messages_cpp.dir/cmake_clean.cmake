@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/include/hrwros_msgs/CounterWithDelayActionFeedback.h"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/include/hrwros_msgs/CounterWithDelayActionGoal.h"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/include/hrwros_msgs/CounterWithDelayFeedback.h"
+  "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/include/hrwros_msgs/BoxHeightInformation.h"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/include/hrwros_msgs/TargetToolPoses.h"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/include/hrwros_msgs/ObjectDetection.h"
   "/home/timmy/hrwros_ws/devel/.private/hrwros_msgs/include/hrwros_msgs/SensorInformation.h"

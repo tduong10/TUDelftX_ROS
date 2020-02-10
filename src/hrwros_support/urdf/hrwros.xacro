@@ -78,6 +78,11 @@
   </joint>
 
 
-
-
+  <xacro:include filename="$(find ur_description)/urdf/ur5.urdf.xacro"/> 
+  <xacro:ur5_robot prefix="robot2_" joint_limited="true"/>
+  <joint name="robot2-robot2_pedestal_joint" type="fixed">
+    <parent link="robot2_pedestal_link"/>
+    <child link="robot2_base_link"/>
+    <origin xyz="0 0 0.6" rpy="0 0 ${radians(90)}"/>
+  </joint>
 </robot>

@@ -26,3 +26,7 @@ Object detection, pose estimation.
 
 - Week 6: Final Project
 ROS file system, basic concepts of behavior design with state machines, build a production line application with two industrial robot arms and a mobile robot.
+
+
+### Course Summary: 
+In this course, you will learn to use different ROS tools to create a complete robotic application. You will be working with your own standalone Ubuntu-Linux installations and with industrial and mobile robots on the physics-based simulation engine, Gazebo. You will learn to program and configure basic robotic tasks such as pick-and-place objects, and navigate through obstacles. You will then integrate all this knowledge to build an industrial production line with two robotic arms and a mobile robot. 

@@ -59,7 +59,6 @@
     <origin xyz="-8.0 -2.2 0" rpy="0 0 0" />
   </joint>
 
-
   <link name="robot2_pedestal_link">
     <visual>
       <origin xyz="0 0 0.3" />
@@ -91,7 +90,14 @@
 
 
   <!-- Add your solution to assignment 1 here -->
+  <xacro:bin_urdf prefix="bin_2_"/>
 
+  <!-- bin 2 -->
+  <joint name="bin_2_joint" type="fixed">
+    <parent link="world_interface" />
+	<child link="bin_2_base_link" />
+	<origin xyz="2.5 1.84 0" rpy="0 0 0" />
+  </joint>
 
 
 

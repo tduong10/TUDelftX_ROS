@@ -1,4 +1,0 @@
-CMake Error: The source directory "/home/timmy/hrwros_ws/src/hrwros_week2" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.
-Makefile:334: recipe for target 'cmake_check_build_system' failed
-make: *** [cmake_check_build_system] Error 1

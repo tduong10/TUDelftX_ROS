@@ -7,6 +7,7 @@ Symlinking /home/timmy/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/CounterW
 Symlinking /home/timmy/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/CounterWithDelayActionFeedback.l
 Symlinking /home/timmy/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/TargetToolPoses.l
 Symlinking /home/timmy/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/CounterWithDelayActionGoal.l
+Symlinking /home/timmy/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/BoxHeightInformation.l
 Symlinking /home/timmy/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/CounterWithDelayResult.l
 Symlinking /home/timmy/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/ObjectDetection.l
 Symlinking /home/timmy/hrwros_ws/devel/share/roseus/ros/hrwros_msgs/msg/CounterWithDelayActionResult.l
@@ -16,6 +17,7 @@ Symlinking /home/timmy/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/Robot
 Symlinking /home/timmy/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/SensorInformation.js
 Symlinking /home/timmy/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/CounterWithDelayActionGoal.js
 Symlinking /home/timmy/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/TargetToolPoses.js
+Symlinking /home/timmy/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/BoxHeightInformation.js
 Symlinking /home/timmy/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/CounterWithDelayActionFeedback.js
 Symlinking /home/timmy/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/CounterWithDelayFeedback.js
 Symlinking /home/timmy/hrwros_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/CounterWithDelayActionResult.js
@@ -54,9 +56,11 @@ Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/Cou
 Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package_CounterWithDelayActionResult.lisp
 Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package_CounterWithDelayActionGoal.lisp
 Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package.lisp
+Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/BoxHeightInformation.lisp
 Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/TargetToolPoses.lisp
 Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/CounterWithDelayGoal.lisp
 Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package_CounterWithDelayResult.lisp
+Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package_BoxHeightInformation.lisp
 Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/CounterWithDelayFeedback.lisp
 Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package_SensorInformation.lisp
 Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package_CounterWithDelayAction.lisp
@@ -67,6 +71,7 @@ Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/srv/Con
 Symlinking /home/timmy/hrwros_ws/devel/share/common-lisp/ros/hrwros_msgs/srv/_package.lisp
 Symlinking /home/timmy/hrwros_ws/devel/lib/pkgconfig/hrwros_msgs.pc
 Symlinking /home/timmy/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/__init__.py
+Symlinking /home/timmy/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/msg/_BoxHeightInformation.py
 Symlinking /home/timmy/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/msg/_CounterWithDelayActionFeedback.py
 Symlinking /home/timmy/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/msg/_CounterWithDelayActionResult.py
 Symlinking /home/timmy/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_msgs/msg/_CounterWithDelayActionGoal.py
@@ -94,4 +99,5 @@ Symlinking /home/timmy/hrwros_ws/devel/include/hrwros_msgs/CounterWithDelayGoal.
 Symlinking /home/timmy/hrwros_ws/devel/include/hrwros_msgs/CounterWithDelayAction.h
 Symlinking /home/timmy/hrwros_ws/devel/include/hrwros_msgs/ConvertMetresToFeetRequest.h
 Symlinking /home/timmy/hrwros_ws/devel/include/hrwros_msgs/CounterWithDelayActionGoal.h
+Symlinking /home/timmy/hrwros_ws/devel/include/hrwros_msgs/BoxHeightInformation.h
 Symlinking /home/timmy/hrwros_ws/devel/include/hrwros_msgs/SensorInformation.h

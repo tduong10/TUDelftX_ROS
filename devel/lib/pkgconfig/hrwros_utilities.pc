@@ -1,1 +1,0 @@
-/home/timmy/hrwros_ws/devel/.private/hrwros_utilities/lib/pkgconfig/hrwros_utilities.pc

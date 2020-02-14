@@ -1,0 +1,1 @@
+/home/timmy/hrwros_ws/devel/.private/hrwros_gazebo/share/roseus/ros/hrwros_gazebo/srv/VacuumGripperControl.l

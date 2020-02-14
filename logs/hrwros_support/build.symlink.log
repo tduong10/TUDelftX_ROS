@@ -1,3 +1,3 @@
-Linked: (/home/timmy/hrwros_ws/devel/.private/hrwros_support/share/hrwros_support/cmake/hrwros_supportConfig.cmake, /home/timmy/hrwros_ws/devel/share/hrwros_support/cmake/hrwros_supportConfig.cmake)
-Linked: (/home/timmy/hrwros_ws/devel/.private/hrwros_support/share/hrwros_support/cmake/hrwros_supportConfig-version.cmake, /home/timmy/hrwros_ws/devel/share/hrwros_support/cmake/hrwros_supportConfig-version.cmake)
-Linked: (/home/timmy/hrwros_ws/devel/.private/hrwros_support/lib/pkgconfig/hrwros_support.pc, /home/timmy/hrwros_ws/devel/lib/pkgconfig/hrwros_support.pc)
+Symlinking /home/timmy/hrwros_ws/devel/share/hrwros_support/cmake/hrwros_supportConfig.cmake
+Symlinking /home/timmy/hrwros_ws/devel/share/hrwros_support/cmake/hrwros_supportConfig-version.cmake
+Symlinking /home/timmy/hrwros_ws/devel/lib/pkgconfig/hrwros_support.pc

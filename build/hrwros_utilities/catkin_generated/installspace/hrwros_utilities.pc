@@ -1,8 +1,0 @@
-prefix=/home/timmy/hrwros_ws/install
-
-Name: hrwros_utilities
-Description: Description of hrwros_utilities
-Version: 0.1.0
-Cflags: 
-Libs: -L/home/timmy/hrwros_ws/install/lib 
-Requires: 

@@ -28,8 +28,8 @@ if __name__ == '__main__':
     turtlebot_robot1_goal.target_pose.header.stamp = rospy.Time.now()
     turtlebot_robot1_goal.target_pose.header.frame_id = "map"
     turtlebot_robot1_goal.target_pose.header.seq = 1
-    turtlebot_robot1_goal.target_pose.pose.position.x = <Add-first-goal-Position-X>
-    turtlebot_robot1_goal.target_pose.pose.position.y = <Add-first-goal-Position-Y>
+    turtlebot_robot1_goal.target_pose.pose.position.x = 0.13
+    turtlebot_robot1_goal.target_pose.pose.position.y = 1.44
     turtlebot_robot1_goal.target_pose.pose.position.z = 0.0
     turtlebot_robot1_goal.target_pose.pose.orientation.x = 0.0
     turtlebot_robot1_goal.target_pose.pose.orientation.y = 0.0
@@ -41,6 +41,7 @@ if __name__ == '__main__':
         turtlebot_navigation_client.send_goal(turtlebot_robot1_goal)
         rospy.loginfo("Goal sent to move_base action server.")
         rospy.loginfo("Goal position x: %s  y: %s", turtlebot_robot1_goal.target_pose.pose.position.x, turtlebot_robot1_goal.target_pose.pose.position.y)
+
 
         # Wait for the server to finish performing the action.
         turtlebot_navigation_client.wait_for_result()

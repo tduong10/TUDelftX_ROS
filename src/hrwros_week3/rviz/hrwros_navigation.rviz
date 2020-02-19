@@ -7,8 +7,9 @@ Panels:
         - /RobotModel1
         - /TF1/Frames1
         - /TF1/Tree1
+        - /Full Path1
       Splitter Ratio: 0.5
-    Tree Height: 743
+    Tree Height: 378
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -63,179 +64,189 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        bin_1_base_link:
+        base_footprint:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        bin_1_drop_point:
+        camera_depth_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        break_beam_base_link:
+        camera_depth_optical_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
-        break_beam_optical_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        break_beam_world_interface:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        logical_camera1_base_link:
+        camera_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        logical_camera2_base_link:
+        camera_rgb_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_rgb_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        caster_back_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot1_base:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        robot1_base_link:
+        caster_front_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot1_ee_link:
+        cliff_sensor_front_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cliff_sensor_left_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cliff_sensor_right_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        gyro_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        mount_asus_xtion_pro_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot1_forearm_link:
+        plate_bottom_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot1_pedestal_link:
+        plate_middle_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot1_shoulder_link:
+        plate_top_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot1_tool0:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        robot1_upper_arm_link:
+        pole_bottom_0_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot1_wrist_1_link:
+        pole_bottom_1_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot1_wrist_2_link:
+        pole_bottom_2_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot1_wrist_3_link:
+        pole_bottom_3_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot2_base:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        robot2_base_link:
+        pole_bottom_4_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot2_ee_link:
+        pole_bottom_5_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot2_forearm_link:
+        pole_kinect_0_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot2_pedestal_link:
+        pole_kinect_1_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot2_shoulder_link:
+        pole_middle_0_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot2_tool0:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        robot2_upper_arm_link:
+        pole_middle_1_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot2_wrist_1_link:
+        pole_middle_2_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot2_wrist_2_link:
+        pole_middle_3_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robot2_wrist_3_link:
+        pole_top_0_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        vacuum_gripper1_base_link:
+        pole_top_1_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        vacuum_gripper1_suction_cup:
+        pole_top_2_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        vacuum_gripper2_base_link:
+        pole_top_3_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        vacuum_gripper2_suction_cup:
+        top_cover1:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        workcell:
+        top_cover2:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        world:
+        top_cover3:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        world_interface:
+          Value: true
+        wheel_left_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+          Value: true
+        wheel_right_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
       Name: RobotModel
-      Robot Description: robot_description
+      Robot Description: turtlebot_description
       TF Prefix: ""
       Update Interval: 0
       Value: true
@@ -428,6 +439,75 @@ Visualization Manager:
       Topic: /particlecloud
       Unreliable: false
       Value: true
+    - Alpha: 1
+      Buffer Length: 20
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Full Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /move_base/NavfnROS/plan
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 0; 0; 255
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Global Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /move_base/DWAPlannerROS/global_plan
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 255; 0; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Local Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /move_base/DWAPlannerROS/local_plan
+      Unreliable: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -464,19 +544,19 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Scale: 96.64820098876953
+      Scale: 83.0416488647461
       Target Frame: <Fixed Frame>
       Value: TopDownOrtho (rviz)
-      X: -1.3533600568771362
-      Y: 2.0439798831939697
+      X: -5.41146183013916
+      Y: -0.3893214464187622
     Saved: ~
 Window Geometry:
   Displays:
     collapsed: false
-  Height: 995
+  Height: 610
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd0000000400000000000001760000037dfc0200000005fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006100fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c00610079007301000000430000037d000000d400ffffff000000010000010d0000037dfc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a0056006900650077007301000000430000037d000000b500fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004a00000003efc0100000002fb0000000800540069006d00650000000000000004a00000035300fffffffb0000000800540069006d00650100000000000004500000000000000000000003be0000037d00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd00000004000000000000017600000206fc0200000005fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003e00000206000000ca00ffffff000000010000010d00000206fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000003e00000206000000a600fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004a00000003efc0100000002fb0000000800540069006d00650000000000000004a0000002b900fffffffb0000000800540069006d006501000000000000045000000000000000000000022e0000020600000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
@@ -485,6 +565,6 @@ Window Geometry:
     collapsed: false
   Views:
     collapsed: false
-  Width: 1613
-  X: 1987
+  Width: 1213
+  X: 67
   Y: 27

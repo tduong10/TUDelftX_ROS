@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/timmy/hrwros_ws/devel/.private/hrwros_support:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/timmy/hrwros_ws/devel/.private/hrwros_support/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/timmy/hrwros_ws/devel/.private/hrwros_support/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/timmy/hrwros_ws/build/hrwros_support"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/timmy/hrwros_ws/devel/.private/hrwros_support/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/timmy/hrwros_ws/src/hrwros_support:$ROS_PACKAGE_PATH"

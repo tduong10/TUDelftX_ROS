@@ -1,44 +1,44 @@
 
 "use strict";
 
-let CounterWithDelayActionGoal = require('./CounterWithDelayActionGoal.js');
+let CounterWithDelayActionFeedback = require('./CounterWithDelayActionFeedback.js');
 let TargetToolPoses = require('./TargetToolPoses.js');
-let CounterWithDelayActionResult = require('./CounterWithDelayActionResult.js');
-let ObjectDetection = require('./ObjectDetection.js');
-let CounterWithDelayAction = require('./CounterWithDelayAction.js');
-let BoxHeightInformation = require('./BoxHeightInformation.js');
-let SensorInformation = require('./SensorInformation.js');
-let CounterWithDelayFeedback = require('./CounterWithDelayFeedback.js');
-let CounterWithDelayGoal = require('./CounterWithDelayGoal.js');
-let RobotTrajectories = require('./RobotTrajectories.js');
-let CounterWithDelayActionFeedback = require('./CounterWithDelayActionFeedback.js');
-let CounterWithDelayResult = require('./CounterWithDelayResult.js');
 let CounterWithDelayActionGoal = require('./CounterWithDelayActionGoal.js');
-let CounterWithDelayActionResult = require('./CounterWithDelayActionResult.js');
+let BoxHeightInformation = require('./BoxHeightInformation.js');
 let CounterWithDelayAction = require('./CounterWithDelayAction.js');
-let CounterWithDelayFeedback = require('./CounterWithDelayFeedback.js');
 let CounterWithDelayGoal = require('./CounterWithDelayGoal.js');
+let ObjectDetection = require('./ObjectDetection.js');
+let SensorInformation = require('./SensorInformation.js');
+let CounterWithDelayActionResult = require('./CounterWithDelayActionResult.js');
+let RobotTrajectories = require('./RobotTrajectories.js');
+let CounterWithDelayFeedback = require('./CounterWithDelayFeedback.js');
+let CounterWithDelayResult = require('./CounterWithDelayResult.js');
 let CounterWithDelayActionFeedback = require('./CounterWithDelayActionFeedback.js');
+let CounterWithDelayActionGoal = require('./CounterWithDelayActionGoal.js');
+let CounterWithDelayAction = require('./CounterWithDelayAction.js');
+let CounterWithDelayGoal = require('./CounterWithDelayGoal.js');
+let CounterWithDelayActionResult = require('./CounterWithDelayActionResult.js');
+let CounterWithDelayFeedback = require('./CounterWithDelayFeedback.js');
 let CounterWithDelayResult = require('./CounterWithDelayResult.js');
 
 module.exports = {
-  CounterWithDelayActionGoal: CounterWithDelayActionGoal,
+  CounterWithDelayActionFeedback: CounterWithDelayActionFeedback,
   TargetToolPoses: TargetToolPoses,
-  CounterWithDelayActionResult: CounterWithDelayActionResult,
-  ObjectDetection: ObjectDetection,
-  CounterWithDelayAction: CounterWithDelayAction,
-  BoxHeightInformation: BoxHeightInformation,
-  SensorInformation: SensorInformation,
-  CounterWithDelayFeedback: CounterWithDelayFeedback,
-  CounterWithDelayGoal: CounterWithDelayGoal,
-  RobotTrajectories: RobotTrajectories,
-  CounterWithDelayActionFeedback: CounterWithDelayActionFeedback,
-  CounterWithDelayResult: CounterWithDelayResult,
   CounterWithDelayActionGoal: CounterWithDelayActionGoal,
-  CounterWithDelayActionResult: CounterWithDelayActionResult,
+  BoxHeightInformation: BoxHeightInformation,
   CounterWithDelayAction: CounterWithDelayAction,
-  CounterWithDelayFeedback: CounterWithDelayFeedback,
   CounterWithDelayGoal: CounterWithDelayGoal,
+  ObjectDetection: ObjectDetection,
+  SensorInformation: SensorInformation,
+  CounterWithDelayActionResult: CounterWithDelayActionResult,
+  RobotTrajectories: RobotTrajectories,
+  CounterWithDelayFeedback: CounterWithDelayFeedback,
+  CounterWithDelayResult: CounterWithDelayResult,
   CounterWithDelayActionFeedback: CounterWithDelayActionFeedback,
+  CounterWithDelayActionGoal: CounterWithDelayActionGoal,
+  CounterWithDelayAction: CounterWithDelayAction,
+  CounterWithDelayGoal: CounterWithDelayGoal,
+  CounterWithDelayActionResult: CounterWithDelayActionResult,
+  CounterWithDelayFeedback: CounterWithDelayFeedback,
   CounterWithDelayResult: CounterWithDelayResult,
 };

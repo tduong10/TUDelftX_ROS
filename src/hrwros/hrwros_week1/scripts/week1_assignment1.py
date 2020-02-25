@@ -13,7 +13,7 @@ from hrwros_msgs.msg import SensorInformation, BoxHeightInformation
 def sensor_info_callback(data, bhi_pub):
 
     # Compute the height of box
-    height_box = data.sensor_data.range
+    height_box = data.sensor_data.max_range – data.sensor_data.range
 
     # Compute the height of the box.
     # Boxes that are detected to be shorter than 10cm are due to sensor noise.

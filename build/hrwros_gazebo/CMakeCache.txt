@@ -669,7 +669,7 @@ SDFormat_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/sdformat
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
 //Name of the computer/site where compile is being run
-SITE:STRING=timmy-VirtualBox
+SITE:STRING=timmy-desktop
 
 //Path to a library.
 SWSCALE_LIBRARY_swscale:FILEPATH=/usr/lib/x86_64-linux-gnu/libswscale.so

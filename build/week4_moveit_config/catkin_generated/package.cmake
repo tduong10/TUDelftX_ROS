@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "week4_moveit_config")
 set(week4_moveit_config_VERSION "0.3.0")
-set(week4_moveit_config_MAINTAINER "timmyduong <tim.duong102@gmail.com>")
+set(week4_moveit_config_MAINTAINER "hrwros_instructors <hrwros@hrwros.com>")
 set(week4_moveit_config_PACKAGE_FORMAT "1")
 set(week4_moveit_config_BUILD_DEPENDS "hrwros_support")
 set(week4_moveit_config_BUILD_EXPORT_DEPENDS "moveit_ros_move_group" "moveit_fake_controller_manager" "moveit_kinematics" "moveit_planners_ompl" "moveit_ros_visualization" "moveit_setup_assistant" "joint_state_publisher" "robot_state_publisher" "tf2_ros" "xacro" "hrwros_support")

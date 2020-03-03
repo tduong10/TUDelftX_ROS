@@ -9,6 +9,5 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/timmy/hrwros_ws/devel/.private/week4_moveit_config:$CMAKE_PREFIX_PATH"
 export PWD="/home/timmy/hrwros_ws/build/week4_moveit_config"
-export PYTHONPATH="/home/timmy/hrwros_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/timmy/hrwros_ws/devel/.private/week4_moveit_config/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/timmy/hrwros_ws/src/week4_moveit_config:$ROS_PACKAGE_PATH"

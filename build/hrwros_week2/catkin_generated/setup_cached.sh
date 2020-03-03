@@ -9,6 +9,5 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/timmy/hrwros_ws/devel/.private/hrwros_week2:$CMAKE_PREFIX_PATH"
 export PWD="/home/timmy/hrwros_ws/build/hrwros_week2"
-export PYTHONPATH="/home/timmy/hrwros_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/timmy/hrwros_ws/devel/.private/hrwros_week2/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/timmy/hrwros_ws/src/hrwros_week2:$ROS_PACKAGE_PATH"

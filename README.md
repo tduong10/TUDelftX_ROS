@@ -1,4 +1,4 @@
-# edX_TUDelftX_ROS
+# TUDelftX_ROS
 
 Hello (Real) World with ROS - Operating System
 

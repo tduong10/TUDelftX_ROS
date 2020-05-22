@@ -34,3 +34,6 @@ In this course, you will learn to use different ROS tools to create a complete r
 
 ### Final Project Demonstration: 
 ![Final Project Demonstration](finalproject_demo.gif)
+
+### Certificate:
+![Certificate](DelftX_ROS_Certificate.png)
